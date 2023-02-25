@@ -66,7 +66,7 @@ function update() {
         snakeBody[0] = [snakeX, snakeY]
     }
 
-    context.fillStyle = "lime"
+    context.fillStyle = "yellow"
     snakeX += speedX * blockSize
     snakeY += speedY * blockSize
     context.fillRect(snakeX, snakeY, blockSize, blockSize)
