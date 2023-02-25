@@ -114,11 +114,3 @@ function changeDirection(event) {
         speedY = 0
     }
 }
-
-
-
-
-
-
-
-
